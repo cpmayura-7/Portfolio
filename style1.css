@@ -93,7 +93,40 @@ table {
   margin-left: 20px;
   margin-right: 5px;
 }
-.html {width: 90%;background-color: #4CAF50;}
-.css {width: 80%; background-color: #2196F3;}
-.js {width: 65%; background-color: #f44336;}
-.php {width: 60%; background-color: #808080;}
+.html {width: 90%;background-color: #4CAF50;animation: html 7s;}
+.css {width: 80%; background-color: #2196F3;animation: css 7s;}
+.js {width: 65%; background-color: #f44336;animation: js 7s;}
+.php {width: 60%; background-color: #808080;animation: php 7s;}
+
+@keyframes html{
+  0%{
+    width: 0%
+  }
+  100%{
+    width:90%
+  }
+}
+@keyframes css{
+  0%{
+    width: 0%
+  }
+  100%{
+    width:80%
+  }
+}
+@keyframes js{
+  0%{
+    width: 0%
+  }
+  100%{
+    width:65%
+  }
+}
+@keyframes php{
+  0%{
+    width: 0%
+  }
+  100%{
+    width:60%
+  }
+}
